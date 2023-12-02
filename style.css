@@ -1,0 +1,33 @@
+/* Oculta las flechas de incremento/decremento en los campos de tipo "number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+/**Amount**/
+.amount {
+  display: flex;
+}
+
+/**State**/
+.state {
+  display: flex;
+  flex-direction: column;
+}
+
+/**Message**/
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+/**iconos**/
+.iconos {
+  background-color: grey;
+  height: 40px;
+}
